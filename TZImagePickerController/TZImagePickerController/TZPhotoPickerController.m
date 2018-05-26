@@ -672,6 +672,7 @@ static CGFloat itemMargin = 5;
             self.imagePickerVc.videoMaximumDuration = tzImagePickerVc.videoMaximumDuration;
         }
         self.imagePickerVc.mediaTypes= mediaTypes;
+        self.imagePickerVc.videoQuality = UIImagePickerControllerQualityTypeHigh;
         if (iOS8Later) {
             _imagePickerVc.modalPresentationStyle = UIModalPresentationOverCurrentContext;
         }
